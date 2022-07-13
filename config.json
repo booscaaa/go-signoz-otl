@@ -1,0 +1,13 @@
+{
+    "database": {
+        "url": "postgres://postgres:postgres@localhost:5432/devtodb"
+    },
+    "server": {
+        "port": "3000"
+    },
+    "otl": {
+        "service_name": "devto_goapp",
+        "otel_exporter_otlp_endpoint": "localhost:4317",
+        "insecure_mode": true
+    }
+}
